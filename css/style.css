@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header About */
+
+nav {
+  display: flex;
+  background-color: #242d55;
+}
+nav h1 {
+  margin-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  margin-left: 67%;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: rgb(223, 172, 43);
+}
+
+/* container About */
+
+.intro {
+  height: 80vh;
+  background-color: #242d55;
+}
+
+.myName {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  color: #af3834;
+  font-size: 45px;
+  font-family: monospace;
+  transition: 0.1s ease-in;
+  cursor: pointer;
+}
+
+.myName:hover {
+  color: rgb(223, 172, 43);
+}
+
+.intro section h3 {
+  font-size: 18px;
+  color: white;
+  width: max-content;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3%;
+}
+
+.intro section .images {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro section img {
+  filter: brightness(0.7);
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.intro section img:hover {
+  filter: brightness(1);
+  border-radius: 20px;
+}
+
+/* footer About */
+
+footer {
+  background-color: #423a3a;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h1 {
+  color: white;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+footer h3 {
+  color: #c2b026;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+footer .info {
+  margin-bottom: 10px;
+}
+
+footer .sites {
+  margin-top: 70px;
+}
+
+.sites a {
+  text-decoration: none;
+}
+
+.sites a img {
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.sites a img:hover {
+  transform: rotate(360deg);
+}
+
+.byMe h3 {
+  margin-right: 15px;
+  margin-top: 70px;
+}
+
+/* projects */
+
+.all {
+  background-color: #99c5d2;
+}
+
+.navProject {
+  background-color: #607993;
+}
+
+.parts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.part1 {
+  width: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #2f375b;
+  border-radius: 15px;
+  box-shadow: black 3px 6px 10px;
+}
+
+.all h1 {
+  font-family: Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  padding-top: 10px;
+  font-size: 35px;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bolder;
+}
+
+.all h1:hover {
+  color: goldenrod;
+  text-shadow: black 2px 1px;
+}
+
+.part1 p,
+.part1 h5,
+.part1 h3,
+.part1 a {
+  padding: 10px;
+}
+
+.part1 p {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.part1 h3 {
+  text-align: center;
+  color: goldenrod;
+  font-weight: bolder;
+  font-size: 26px;
+  font-family: cursive;
+}
+
+.part1 a {
+  text-decoration: none;
+  color: white;
+  border: solid white 0.5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  border-radius: 6px;
+}
+
+.part1 a:hover {
+  color: goldenrod;
+  border: solid goldenrod 0.5px;
+  border-radius: 6px;
+}
+
+.part2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.comment {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.comment h5 {
+  color: grey;
+}
+
+/* contact */
+
+fieldset {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+legend {
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+label,
+input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+label {
+  color: rgb(228, 228, 228);
+  font-size: 13px;
+  font-family: cursive;
+}
+
+input {
+  width: 100%;
+  height: 20px;
+  padding: 3px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 13px;
+  color: white;
+  background-color: black;
+  transition: 0.4s;
+}
+
+textarea {
+  display: block;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  resize: none;
+  width: 100%;
+}
+
+button:hover {
+  color: black;
+  background: white;
+}
+
+.contact {
+  color: goldenrod;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.allContact {
+  background-color: #2f375b;
+}
+
+select {
+  width: 30%;
+  border-radius: 5px;
+}
